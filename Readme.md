@@ -65,74 +65,43 @@ En este análisis se plantean las siguientes preguntas:
 
 Se desarrolla un Dashboard que muestra el comportamiento y la cobertura del servicio de internet en Argentina. El archivo del Dashboard es Proyecto2.pbx.
 
-
-<hr>
-
 ## **ANALISIS**
+### **DASHBOARD**
+<img src="dashboard.png"  height=500>
 
-<hr>
+### **BANDA ANCHA POR PROVINCIA**
+<img src="bw_provincia.png"  height=500>
 
-### **PAGINA 1**
-<img src="Captura de pantalla 2023-07-18 195459.png"  height=500>
+### **ACCESO PROMEDIO POR PROVINCIA**
+<img src="acceso_provincia.png"  height=500>
 
+### **CRECIMIENTO DIFERENCIADO POR PERIODOS**
+<img src="crecimiento_anual.png"  height=500>
 
-### **PAGINA 2**
- 
-<img src="Captura de pantalla 2023-07-18 202446.png"  height=500>
+## *RESULTADOS DE ANALISIS*
 
-
-
-## *CONCLUSIONES OBTENIDAS*
-
-### 1. En Argentina, la velocidad promedio de descarga actual es de 58.67 Mbps. 
-
-
-### 2. La provincia con la mayor cantidad de usuarios conectados es 'Capital Federal', mientras que 'Formosa' cuenta con la menor cantidad de usuarios. 
+* 1. El promedio de acceso por cada 100 hogares en el ultimo año es de 67.42 a nivel nacional 
 
 
-### 3. El año 2022 registró la mayor cantidad de ingresos, alcanzando la suma de 182.981.651 pesos. 
+* 2. La protocolos de conexion con mas presencia son:
+    - 4G:              Presente en 2574 Provincias
+    - WIRELESS:        Presente en 2242 Provincias
+    - TELEFONIA FIJA:  Presente en 2162 Provincias
+
+* 3. El 42.21% de Conexiones a Internet Estan por debajo de los 6 Mbps
+    - Menor a 512Kpps : 16.11%
+    - +512Kbps -1Mbps : 19.93%
+    - +1Mbps -6Mbps   : 6.17%
+
+* 4. Buenos Aires Posee La mayor cantidad de conexiones a banda ancha, pero tambien posee el mayor numero de conexiones Dial-up
+
+* 5. Buenos Aires Tiene el mayor promedio de acceso por cada 100 hogares: 77.26 pero solo el 17.96% son conexiones mayor a 30 Mbps
 
 
-### 4. La fibra óptica ha experimentado una tendencia alcista desde 2018 hasta 2022.
+* KPIS
 
+1. Tenemos un KPI que no muestra el promedio de descarga y cuando es mayor a 20 Mbps 
 
-### 5. En efecto, el promedio de Mbps en Argentina ha mantenido un crecimiento constante, comenzando en 3.85 y llegando actualmente a 58.67.
+2. Tenemos un Comparativo que indica las conexiones menores a 512Kpbs y su diferencia con el Total de Conexiones
 
-
-### 6. La tecnología más utilizada es el 'Cable Modem', con un total de 144.291.039 instalaciones. 
-
-
-### 7. Los ingresos han mostrado un crecimiento constante a lo largo de la historia, sin retrocesos.
-
-<hr>
-
-## *KPIS*
-
-### 1. Creamos un KPI que nos indica si aumento o bajo la tasa de accesos a internet comparando el año actual con el año anterior 
-
-### 2. Creamos un KPI que no mide la velocidad promedio de bajada en Mbps con un objetivo de llegar al 40 Mbps siendo cumplida en el año 2020
-
-### 3. Creamos un KPI que nos mide el total de ingresos a lo largo de la historia(se puede filtrar por año) y como objetivo tiene llegar a 190 millones de pesos para el año proximo, faltando un monto de 7 millones de pesos para cumplir con el objetivo 
-
-
-<hr>
-
-## Descripcion de los datos utilizados
-
-### **Año :**                          <h3 align=center>  rango años del 2014 a 2022 </h3>
-### **ADSL :**                         <h3 align=center>Cantidad de instalaciones con  tecnologia ADSL </h3>
-### **Cablemodem :**                   <h3 align=center>Cantidad de instalaciones con tecnologia Cablemodem </h3>
-### **Fibra optica :**                 <h3 align=center>Cantidad de instalaciones con la tecnologia de Fibra optica </h3>
-### **Wireless :**                     <h3 align=center>Cantidad de instalaciones con la tecnologia de Wireless </h3>
-### **Mbps (Meda de bajada) :**        <h3 align=center>Velocidad promedio de bajada en Mbps </h3>
-### **Provincia :**                    <h3 align=center>Provincias de Argentina </h3>
-### **Accesos por cada 100 hogares :** <h3 align=center>Cantidad de hogares que tienen acceso a conexion a internet </h3>
-### **KPI :**                          <h3 align=center>Nos indica si subio o bajo la tasa de 'accesos por cada 100 hogares' </h3>
-### **Tasa accesos :**                 <h3 align=center>Tasa porcentual de la columna 'accesos por cada 100 hogares' </h3>
-### **Ingresos(en miles de pesos) :**  <h3 align=center>Ingresos generados por la empresa </h3>
-
-<hr>
-
-### *Firma:* https://www.linkedin.com/in/mauro-ferrera/
-
-#### Gracias por ver <3
+3. TEnemos un Indicador de Cantidad de Localidades con Acceso a Fibra Optica con Respecto a el Total de Localidades por Provincia
