@@ -67,41 +67,51 @@ Se desarrolla un Dashboard que muestra el comportamiento y la cobertura del serv
 
 ## **ANALISIS**
 ### **DASHBOARD**
-<img src="dashboard.png"  height=500>
+<img src="dashboard.PNG"  height=500>
+
 
 ### **BANDA ANCHA POR PROVINCIA**
 <img src="bw_provincia.png"  height=500>
 
+
 ### **ACCESO PROMEDIO POR PROVINCIA**
 <img src="acceso_provincia.png"  height=500>
+
 
 ### **CRECIMIENTO DIFERENCIADO POR PERIODOS**
 <img src="crecimiento_anual.png"  height=500>
 
-## *RESULTADOS DE ANALISIS*
+### *RESULTADOS DE ANALISIS*
 
-* 1. El promedio de acceso por cada 100 hogares en el ultimo año es de 67.42 a nivel nacional 
+1. El promedio de acceso por cada 100 hogares en el ultimo año es de 67.42 a nivel nacional 
 
 
-* 2. La protocolos de conexion con mas presencia son:
+2. La protocolos de conexion con mas presencia son:
     - 4G:              Presente en 2574 Provincias
     - WIRELESS:        Presente en 2242 Provincias
     - TELEFONIA FIJA:  Presente en 2162 Provincias
 
-* 3. El 42.21% de Conexiones a Internet Estan por debajo de los 6 Mbps
+
+3. El 42.21% de Conexiones a Internet Estan por debajo de los 6 Mbps
     - Menor a 512Kpps : 16.11%
     - +512Kbps -1Mbps : 19.93%
     - +1Mbps -6Mbps   : 6.17%
 
-* 4. Buenos Aires Posee La mayor cantidad de conexiones a banda ancha, pero tambien posee el mayor numero de conexiones Dial-up
+4. Buenos Aires Posee La mayor cantidad de conexiones a banda ancha, pero tambien posee el mayor numero de conexiones Dial-up
 
-* 5. Buenos Aires Tiene el mayor promedio de acceso por cada 100 hogares: 77.26 pero solo el 17.96% son conexiones mayor a 30 Mbps
+5. Buenos Aires Tiene el mayor promedio de acceso por cada 100 hogares: 77.26 pero solo el 17.96% son conexiones mayor a 30 Mbps
+
+6. El promedio de Acceso por 100 Hogares, en cada provincia esta muy por debajo del Promedio Nacional
+
+7. Los Años 2016 y 2019 Presentaron Disminuciones en el Crecimiento de Conexiones a Intenert con Respecto a periodos Anteriores
 
 
-* KPIS
+### KPIS
 
 1. Tenemos un KPI que no muestra el promedio de descarga y cuando es mayor a 20 Mbps 
 
 2. Tenemos un Comparativo que indica las conexiones menores a 512Kpbs y su diferencia con el Total de Conexiones
 
 3. TEnemos un Indicador de Cantidad de Localidades con Acceso a Fibra Optica con Respecto a el Total de Localidades por Provincia
+
+## Muchas Gracias
